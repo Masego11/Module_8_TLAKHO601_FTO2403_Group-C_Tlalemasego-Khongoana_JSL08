@@ -1,19 +1,3 @@
-# [JSL08] Submission: Singleton Pattern for Bank Branch Management
-
-You will:
-1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_JSL08
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL08] Submission Project Tab.
-
-This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
-
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pKJewwyu4
-
-A Singleton pattern ensures that a class has only one instance and provides a global point of access to it. For our banking system, let's use the Singleton pattern to manage the bank's branch information.
-
-Design patterns like Singleton, Factory, and Observer can significantly improve the structure and maintainability of your JavaScript projects, making your code cleaner and more efficient. By understanding and applying these patterns, you'll be well-equipped to tackle complex design challenges in your projects, just as a well-organized bank efficiently manages its operations and services.
-
 ## What You Need to Do:
 
 1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_JSL08
@@ -23,17 +7,22 @@ Design patterns like Singleton, Factory, and Observer can significantly improve 
 5. Push your local Git repository to your GitHub account.
 6. Verify that the changes have been successfully pushed to your GitHub repository.
 
-## What You Need to Include:
+## Breakdown:
 
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
+1. Declared a variable to store the singleton instance
+2. Defined a class called BankBranch for managing branch information
+3. Created a constructor that takes branchInfo as a parameter
+4.Used an if statement to create a new instance with the provided branchInfo and assign it to bankBranchInstance if it is null. 
+4. returned the bankBranchInstance whether it's newly created or existing 
+5. Added methods to the bankBrancH class for managing branch-related information 
+6. Created instances BranchA and Branch with different information
+7. Used the getBranchInfo method to retrieve information from the instances 
+8. Verified that Branch A and Branch B are both referring to the same instance by comparing the using '==='
+9. Used the updatebranch method to update BranchA information
+10. Used the deleteBranch method to delete BranchB info
+11. Verified that Branch A and Branch B are both still referring to the same instance. 
 
-## How We'll Assess Your Work:
+## Challenges:
 
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
-
-This challenge will test your ability to create a function with the Singleton Pattern. Woohoo! Your first design pattern!
-
+1. N/A
 
