@@ -28,7 +28,7 @@ const branchB = new BankBranch (
     {name: 'Provincial Branch', address: '8902 vander hof road'});
 console.log('Branch B details', branchB.getBranchInfo());
 
-    console.log('Is branchA and branchB referring to the same instance?', branchA === branchB ); //Verying whether branchA & branchB are referring to the same instance
+console.log('Is branchA and branchB referring to the same instance?', branchA === branchB ); //Verying whether branchA & branchB are referring to the same instance
 //Updated branch information using the updateBranch method 
 branchA.updateBranchInfo(
     {name: 'New National Branch', address: '227 Beacon way'});
